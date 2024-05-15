@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="main.css">
     <script src="https://unpkg.com/feather-icons"></script>
 </head>
-<body>
+<body class="overflow-x-hidden">
+    <!-- NavBar -->
     <nav class="bg-deepBlue">
         <div class="relative w-[1080px] mx-auto flex items-center justify-evenly">
 
@@ -68,8 +69,36 @@
                 </button> -->
         </div>
     </nav>
+    <!-- Hero Section -->
+    <section class="relative bg-deepBlue">
+
+        <div class="w-9/12 max-w-[1080px] flex flex-row justify-between items-center mx-auto">
+            <!-- leftpart -->
+            <div class="space-y-8 " >
+                <h1 class="font-mullish font-bold text-[38px] leading-[1.2] text-white">Power your finance, grow your business</h1>
+                <div class="w-6 h-1 bg-greenLight"></div>
+                <p class="font-mullish text-[17px] text-white leading-7 opacity-70 ">
+                    Accept payments from customers. Automate <br>
+                    payouts to vendors & employees. Never run out<br> 
+                    of working capital.
+                </p>
+                <Button class="bg-lightBlue text-white rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200  py-[14px] px-[18px]">Sign Up Now</Button>
+            </div>
+            <!-- rightpart -->
+            <img src="./images/hero-illustration.jpg" alt="" class="w-full max-w-[550px]">
+        </div>
+
+        <!-- shape part -->
+        <div class="w-[100.0390%] absolute left-0 right-0">
+            <img src="./images/hero-shape.svg" alt=""
+            class="w-full object-fill">
+        </div>
+
+    </section>
+    
     <script>
         feather.replace();
     </script>
+
 </body>
 </html>
