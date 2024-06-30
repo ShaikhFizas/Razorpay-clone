@@ -6,12 +6,23 @@
     <title>RazorPay</title>
     <link rel="stylesheet" href="main.css">
     <script src="https://unpkg.com/feather-icons"></script>
+     <!-- google font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+       href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap"
+       rel="stylesheet"
+     />
     <style>
       .corefeaturesection
       {
         background-size: 100% 100%;
         padding-top: 12rem;
         padding-bottom: 12rem;
+      }
+      .ctaSection
+      {
+        background-size: 100% 100%;
       }
       .moveImage
       {
@@ -1056,7 +1067,7 @@
 
         <div class="max-w-[400px]">
           <img src="./images/quotes.svg" alt="" width="35px" height="40px" class="-mb-2">
-          <p class="font-mullish text-3xl font-extralight"> Readymade Closed Wallet Solution For Quick Refunds</p>
+          <p class="font-mullish text-3xl font-extralight opacity-80"> Readymade Closed Wallet Solution For Quick Refunds</p>
           <a href="#" class="text-grayText italic underline">Learn More</a>
           <h3 class="font-mullish font-extrabold text-2xl">Lorem Ipsum</h3>
           <p class="font-mulish font-medium">CEO, XYZ Engineering Company</p>
@@ -1065,13 +1076,334 @@
       </div>
 
        <!-- 6 dot div -->
-       <div>
-        <div></div>
+       <div class="flex flex-row mx-auto space-x-2 justify-center">
+
+        <!-- dot 1 -->
+        <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+        <!-- dot 2 -->
+        <div class="h-[10px] w-[10px] bg-lightBlue300 rounded-full"></div>
+        <!-- dot 3 -->
+        <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+        <!-- dot 4 -->
+        <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+        <!-- dot 5 -->
+        <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+        <!-- dot 6 -->
+        <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+        
+
        </div>
 
       </div>
 
     </section>
+
+    <!-- Last feature section -->
+
+    <section class="bg-[url(/images/CTABg.svg)] w-full h-full bg-no-repeat bg-cover ctaSection min-h-[510px]">
+      <div class="w-9/12 max-w-[1080px] relative flex flex-row items-center justify-between space-x-20 mx-auto pt-16">
+
+        <!-- left part -->
+        <div class="flex flex-col gap-5 mt-12 max-w-[600px]">
+          <h2 class="font-mullish font-bold text-2xl text-white">Supercharge your business with Razorpay</h2>
+          <div class="w-6 h-1 bg-greenLight"></div>
+          <p class="font-mullish text-white">Sign up now to experience the future of payments and offer <br> your customers the best checkout experience.</p>
+  
+          <ul class="flex flex-row flex-wrap gap-x-11 text-white gap-y-3">
+            <li class="font-mullish text-white flex flex-row ">
+              <i data-feather="check" class="text-greenLight"></i>
+              <span>Quick Onboarding
+              </span>
+            </li>
+            <li class="font-mullish text-white flex flex-row ">
+              <i data-feather="check" class="text-greenLight"></i>
+              <span>Access to entire product suite
+  
+              </span>
+            </li >
+            <li class="font-mullish text-white flex flex-row ">
+              <i data-feather="check" class="text-greenLight"></i>
+              <span>API access
+  
+              </span>
+            </li>
+            <li class="font-mullish text-white flex flex-row ">
+              <i data-feather="check" class="text-greenLight"></i>
+              <span>24x7 support
+              </span>
+            </li>
+          </ul>
+  
+          <button
+          class="min-w-[32px] font-mullish text-sm font-bold bg-white text-lightBlue300 border flex
+          rounded-sm items-center hover:text-lightBlue500 transition-all duration-200 py-3 px-4 place-self-start">
+            Sign Up
+            <svg
+            viewBox="0 0 24 24"
+            focusable="false"
+            class="w-[14px] h-[14px] ml-3"
+          >
+            <path
+              fill="currentColor"
+              d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+            ></path>
+          </svg>
+          </button>
+  
+          
+  
+        </div>
+
+         <!-- right part -->
+          <img src="./images/ctaImg.svg" alt="" width="240px" height="282px" class="mt-16 pt-3">
+
+
+      </div>
+    </section>
+
+    <!-- footer section -->
+
+    <footer
+    style="background: linear-gradient(to right, #eef9fe, #edf7ff)"
+    class="mt-10"
+  >
+      <!-- main content grid box -->
+      <div class="w-full grid grid-cols-4 space-x-4 px-24 py-20">
+        <!-- grid 1 -->
+        <div class="flex flex-col space-y-4 w-25% max-w-[300px]">
+          <img src="/images/logo-dark.svg" alt="" width="130px" height="80px">
+          <p class="font-mullish text-sm ">Razorpay is the only payments solution in India that allows
+            businesses to accept, process and disburse payments with its product
+            suite. It gives you access to all payment modes including credit
+            card, debit card, netbanking, UPI and popular wallets including
+            JioMoney, Mobikwik, Airtel Money, FreeCharge, Ola Money and PayZapp.</p>
+          <p class="font-mullish text-sm "> RazorpayX supercharges your business banking experience, bringing
+            effectiveness, efficiency, and excellence to all financial
+            processes. With RazorpayX, businesses can get access to
+            fully-functional current accounts, supercharge their payouts and
+            automate payroll compliance.</p>
+          <p class="font-mullish text-sm ">Manage your marketplace, automate bank transfers, collect recurring
+            payments, share invoices with customers and avail working capital
+            loans - all from a single platform. Fast forward your business with
+            Razorpay.</p>
+          <p class="font-mullish text-sm ">Disclaimer: The RazorpayX powered Current Account and VISA corporate
+            credit card are provided by RBI licensed banks. Your RazorpayX
+            powered account is provided by our partner bank, in accordance with
+            RBI regulations. RazorpayX itself is not a bank and doesn't hold or
+            claim to hold a banking license.</p>
+
+          <p class="font-mullish uppercase font-bold text-gray2">
+              Subscribe to our newsletter
+            </p>
+
+          <form action="" class="relative bg-white w-[260px] mt-2 mb-4" >
+            <input type="text" placeholder="Your email address"
+            class="pr-16 font-mullish border-gray-300 outline-lightBlue focus:outline-lightBlue placeholder:text-sm py-2 px-4 border rounded-sm transition-all duration-200">
+            <button class="h-[90%] bg-white absolute right-[1.5px] top-1/2 -translate-y-1/2 z-10 font-mullish text-sm font-bold text-lightBlue300 flex rounded-sm items-center hover:text-lightBlue500 transition-all duration-200">Submit 
+              <svg
+              viewBox="0 0 24 24"
+              focusable="false"
+              class="w-[14px] h-[14px] ml-3"
+            >
+              <path
+                fill="currentColor"
+                d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+              ></path>
+            </svg>
+          </button>
+          </form>
+          <div class="flex flex-row gap-4">
+            <img src="/images/footer-certificate-1.png" alt=""
+            loading="lazy"
+            width="80px"
+            height="80px">
+            <img src="/images/footer-certificate-2.jpg" alt=""
+            >
+          </div>
+          
+        </div>
+
+        <!-- grid 2 -->
+         <div class="flex flex-col space-y-4 w-25% max-w-[300px]">
+           <!-- list box 1 -->
+            <div>
+              <h3 class="font-mullish font-bold opacity-85 text-black">BANKING PLUS</h3>
+              <ul class="flex flex-col space-y-2">
+                <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">RazorpayX</li>
+                <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Current Accounts</li>
+                <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Payouts</li>
+                <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Payout Links</li>
+                <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Corporate Credit Card</li>
+                <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">View Live Demo <span class="font-mulish text-white bg-green-600 px-1.5 rounded-sm">New</span></li>
+              </ul>
+            </div>
+
+            <!-- list box 2 -->
+            <div>
+              <h3 class="font-mullish font-bold text-black"> LENDING</h3>
+              <ul class="flex flex-col space-y-2">
+                <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Razorpay Capital</li>
+                <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Instant Settlements</li>
+                <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Working Capital Loans</li>
+                <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Marketplace Instant Settlements</li>
+              </ul>
+            </div>
+
+            <!-- list box 3 -->
+            <div>
+              <h3 class="font-mullish font-bold text-black">RISK & FRAUD</h3>
+              <ul class="flex flex-col space-y-2">
+                <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Thirdwatch</li>
+                <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">PrePay CoD <span class="font-mulish text-white bg-green-600 px-1.5 rounded-sm">New</span></li>
+              </ul>
+            </div>
+
+            <!-- list box 4 -->
+            <div>
+              <h3 class="font-mullish font-bold text-black">BECOME A PARTNER</h3>
+              <ul class="flex flex-col space-y-2">
+                <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Refer and Earn</li>
+                <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Onboarding APIs</li>
+              </ul>
+            </div>
+
+            <!-- list box 4 -->
+            <div>
+              <h3 class="font-mullish font-bold text-black">More</h3>
+              <ul class="flex flex-col space-y-2">
+                <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Route</li>
+                <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Invoices</li>
+                <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Freelancer Payments</li>
+                <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">International</li>
+                <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Flash Checkout</li>
+                <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">UPI</li>
+                <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">ePOS</li>
+                <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Checkout Demo</li>
+                <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">RazorpayX Payroll</li>
+              </ul>
+            </div>
+         </div>
+
+         <!-- grid 3 -->
+         <div class="flex flex-col space-y-4 w-25% max-w-[300px]">
+
+          <!-- list box 1 -->
+           <div>
+             <h3 class="font-mullish font-bold opacity-85 text-black">ACCEPT PAYMENTS</h3>
+             <ul class="flex flex-col space-y-2">
+               <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Payment Gateway</li>
+               <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Payment Pages</li>
+               <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Payment Links</li>
+               <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">QR Codes</li>
+               <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Subscriptions</li>
+               <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Smart Collect</li>
+             </ul>
+           </div>
+
+           <!-- list box 2 -->
+           <div>
+             <h3 class="font-mullish font-bold text-black"> DEVELOPERS</h3>
+             <ul class="flex flex-col space-y-2">
+               <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Docs</li>
+               <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Integrations</li>
+               <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">API Reference</li>
+             </ul>
+           </div>
+
+           <!-- list box 3 -->
+           <div>
+             <h3 class="font-mullish font-bold text-black">RESOURCES</h3>
+             <ul class="flex flex-col space-y-2">
+               <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Blog</li>
+               <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Customer Stories</li>
+               <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Events</li>
+               <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Chargeback Guide</li>
+               <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Settlement Guide</li>
+             </ul>
+           </div>
+
+           <!-- list box 4 -->
+           
+           <div>
+            <h3 class="font-mullish font-bold text-black">SOLUTIONS</h3>
+            <ul class="flex flex-col space-y-2">
+              <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Education</li>
+              <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">E-commerce</li>
+              <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Saas</li>
+              <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">BFSI</li>
+            </ul>
+          </div>
+
+          <!-- list box 5 -->
+          <div>
+            <h3 class="font-mullish font-bold text-black">FREE TOOLS</h3>
+            <ul class="flex flex-col space-y-2">
+              <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">GST Calculator</li>
+              <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Online TDS Payment</li>
+              <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">GST Number Search <span class="font-mulish text-white bg-green-600 px-1.5 rounded-sm">New</span></li>
+              
+            </ul>
+          </div>
+        
+         </div>
+
+          <!-- grid 4 -->
+           <div class="flex flex-col space-y-4 w-25% max-w-[300px]">
+
+              <!-- list Box 1 -->
+              <div>
+                <h3 class="font-mullish font-bold opacity-85 text-black">COMPANY</h3>
+                <ul class="flex flex-col space-y-2">
+                  <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">About Us</li>
+                  <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Careers <span class="font-mulish text-white bg-green-600 px-1.5 rounded-sm">We're hiring!</span></li>
+                  <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Terms of Use</li>
+                  <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Privacy Policy</li>
+                  <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Grievance Redressals</li>
+                  <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Responsible Disclosure</li>
+                  <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Partners</li>
+                  <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">White Papers</li>
+                  <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Corporate Information</li>
+                </ul>
+              </div>
+
+              <!-- list Box 2 -->
+              <div>
+                <h3 class="font-mullish font-bold opacity-85 text-black">HELP & SUPPORT</h3>
+                <ul class="flex flex-col space-y-2">
+                  <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Support</li>
+                  <li class="font-mullish text-lightBlue500 font-bold hover:underline hover:text-blue-600">Knowledge base</li>
+                  
+                </ul>
+              </div>
+
+              <!-- list Box 3 -->
+               <div>
+                <h3 class="font-mullish font-bold opacity-85 text-black">FIND US ONLINE</h3>
+                <div class="mt-4 flex flex-row space-x-3">
+                  <img src="./images/facebook-icon.svg" alt="">
+                  <img src="./images/twitter-icon.svg" alt="">
+                  <img src="./images/instagram-icon.svg" alt="">
+                  <img src="./images/github-icon.svg" alt="">
+                  <img src="./images/linkedin-icon.svg" alt="" width="25px" height="25px">
+                </div>
+               </div>
+
+               <!-- list Box 4 -->
+                <div class="space-y-1 mb-3">
+                  <h3 class="font-mullish font-bold opacity-85 text-black">REGD. OFFICE ADDRESS</h3>
+                  <p class="font-mullish text-xs opacity-70">Razorpay Software Private Limited, <br />1st Floor, SJR Cyber,
+                    <br />22 Laskar Hosur Road, Adugodi, <br />Bengaluru, 560030,
+                    <br />Karnataka, India <br />CIN: U72200KA2013PTC097389</p>
+                </div>
+
+                <!-- list Box 5 -->
+                 <div class="py-4">
+                  <p class="font-mullish text-xs opacity-70">&#169; Razorpay 2024</p>
+                  <p class="font-mullish text-xs opacity-70">All Rights Reserved</p>
+                 </div>
+           </div>
+      </div>     
+    </footer>
     
     <script>
         feather.replace();
